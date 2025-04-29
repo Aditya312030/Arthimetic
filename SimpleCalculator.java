@@ -6,13 +6,14 @@ public class SimpleCalculator {
         double num1 = 10;
         double num2 = 5;
         double num3=18;
-        double sum = num1 + num2+num3;
+        double num4=31;
+        double sum = num1 + num2+num3+num4;
         System.out.println("Addition: " + sum);
 
-        double difference = num1 - num2-num3;
+        double difference = num1 - num2-num3-num4;
         System.out.println("Subtraction: " + difference);
 
-        double product = num1 * num2*num3;
+        double product = num1 * num2*num3*num4;
         System.out.println("Multiplication: " + product);
 
         if (num2 != 0) {
